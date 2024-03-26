@@ -10,5 +10,5 @@ app.use((err, req, res, next) => {
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`NODE:${PORT} 服务已启动`);
+  console.log(`NODE:${PORT} 服务已启动1`);
 });
